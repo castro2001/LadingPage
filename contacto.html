@@ -9,7 +9,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Work+Sans&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/86e925a6b7.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body id="body">
 <nav class="navegacion">
     <a href="index.html" class="logo">Alexander</a>
 
@@ -35,10 +35,15 @@
             </li>
 
         </ul>
-   
+   <div class="iconos">
+            <button id="Sun"><i class="fa fa-sun-o" aria-hidden="true"></i></button>
+            <button id="moon"> <i class="fa fa-moon-o" aria-hidden="true"></i></button>
+             
+            
+        </div>
 </nav>
     
-<main class="Contenedor">
+<main class="Contenedor" id="Contenido">
 
 
  <section class="contact" >
@@ -50,10 +55,10 @@
 <form  method="post" class="Contenedor_Form ">
     <h3 class="title">Contacto</h3>
    <label for="fname" class="Items">Nombre:</label>
-    <input type="text" name="name" id="name" placeholder="Jordan Alexander castro lino" class=" inputs__text"  maxlength="30" minlength="5" pattern="^[a-zA-Z0-9_.-]*$">
+    <input type="text" name="name" id="name" placeholder="Jordan Alexander castro lino" class=" inputs__text"  maxlength="30" minlength="5" pattern="^[a-zA-Z]">
 
     <label for="fapellido" class="Items">Celular:</label>
-    <input type="text" name="apellido" id="apellido" placeholder="0967894520"  class=" inputs__text2" maxlength="20" minlength="5" pattern="^[a-zA-Z0-9_.-]*$">
+    <input type="text" name="apellido" id="apellido" placeholder="0967894520"  class=" inputs__text2" maxlength="20" minlength="5" pattern="^[0-9]">
 
     <label for="fasunto" class="Items">Asunto</label>
     <textarea name="asunto" id="asunto" cols="30" rows="10" class="comentario" placeholder="Escribe tu asunto..."></textarea>
@@ -65,5 +70,7 @@
 <footer class="Footer">
     <p>copyrigth &copy 2022. Todos los derechos reservados </p>
 </footer>
+<script src="./main.js"></script>
+
 </body>
 </html>

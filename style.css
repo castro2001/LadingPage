@@ -21,6 +21,26 @@ body{
     background-color: steelblue;
 }
 
+button{
+    background: rgba(155 155 155 / .2);
+    backdrop-filter: blur(25px);
+    border:  none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus{
+    background-color:#00ADB5;
+
+}
+
+.iconos i {
+   padding: 10px;
+    font-size: 1rem;
+    color: #dcdddd;
+}
+
 .navegacion{
     display: flex;
     justify-content: space-around;

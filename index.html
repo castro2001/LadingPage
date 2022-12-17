@@ -9,8 +9,8 @@
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Work+Sans&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/86e925a6b7.js" crossorigin="anonymous"></script>
 </head>
-<body>
-<nav class="navegacion">
+<body id="body">
+<nav class="navegacion" id="nav">
     <a href="index.html" class="logo">Alexander</a>
 
         <ul class="nav_bar">
@@ -35,10 +35,15 @@
             </li>
 
         </ul>
+
+        <div class="iconos">
+            <button id="Sun"><i class="fa fa-sun-o" aria-hidden="true"></i></button>
+            <button id="moon"> <i class="fa fa-moon-o" aria-hidden="true"></i></button>   
+        </div>
    
 </nav>
     
-<main class="Contenedor">
+<main class="Contenedor" id="Contenido">
     <section class="Contenedor__Principal">
         <article class="Article_Info">
             <header>
@@ -70,5 +75,7 @@
 <footer class="Footer">
     <p>copyrigth &copy 2022. Todos los derechos reservados </p>
 </footer>
+
+<script src="./main.js"></script>
 </body>
 </html>
